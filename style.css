@@ -1,0 +1,292 @@
+body{ 
+    margin:auto;
+    font-family: "Century Gothic";
+    background-repeat: repeat;
+    background-size: 50px;
+    background-image: url(../images/marble.jpg);
+    background-size: 80%;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.header{
+    padding: 45px 0 20px 40px;
+    font-family: "Century Gothic";
+    font-size: 60px;
+    font-style: bold;
+    font-style: up;
+    color: white; 
+    background-image: url(../images/blackmarble.jpg);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center
+}
+#welcome-message {
+width:600px;
+height: 400px;
+padding: 20px 20px 20px 20px;
+margin: auto;
+text-transform: uppercase;
+text-align: center;
+font-size: 29px;
+background-size: 100%;
+background-image: url(../images/blackmarble.jpg);
+line-height: 20px;
+box-shadow:-2px 1px 11px 2px #0f0e0f;
+}
+
+.Menu {
+    background:#9fc3cf;
+    padding: 6px 0 6px 40px;  
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+    text-align: center;
+    font-style: bold;
+}
+
+.Menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    font-style: bold;
+}
+.Menu a:hover{
+    color:white;
+}
+
+
+h2{
+    color: teal;
+    font-size: 10px;
+    margin: 20px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+}
+.main{
+    margin:  0 0 10px;
+    padding; 35px 40px 30px 0px;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer {
+  background-color: #9fc3cf;
+  padding: 10px;
+  position: fixed;
+  text-align: left;
+  color: white;
+  width: 100%;
+position: fixed;
+}
+.footer a{
+    text-decoration: none; 
+}
+.seperator{
+    color: white;
+    font-size: 14px;
+}
+/** about page styles***/
+
+table{
+    align-content: right;
+}
+    
+#about-page .description{
+    clear:left
+}
+/***contact page***/
+#contact #form {
+width: 450px;
+padding: 5px 5px 7px 10px;
+margin:auto;
+box-shadow: 0px 2px 17px 3px;
+text-transform: uppercase;
+color: black;
+}
+
+#contact .page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10s0px;
+}
+#contact #form input{
+    width: 99%;
+    height: 20px;
+    background: aliceblue;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#contact #form #message{
+    width: 99%;
+    height: 100%;
+    background: aliceblue;
+    border-radius: 5px;
+}
+#contact #form #submit{
+    height: 30px;
+    background: darkslategrey;
+    color: aliceblue;
+}
+#contact #form #submit:hover{
+    background: white;
+    color: black;
+}
+aside{
+    float: left;
+    width: 130px;
+    padding: 50px 1px 10px 0px;
+}
+h4{
+    color: teal;
+    font-size: 12px;
+    margin: 80px 1px 10px;
+    text-transform: uppercase;
+    text-align: left
+}
+h1 {
+    margin: 150px;
+    color:teal;
+    font-size: 24px;
+    font-family: "Century Gothic";
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h5 {
+    font-style: bold;
+    text-align: center;
+    padding: 5px;
+    font-family: Countryside;
+    padding-top: 30px;
+    font-size: 30px;
+}
+h6 {
+    font-style: bold;
+    font-family: "Century Gothic";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.container{
+    width: 780px;
+    height: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 50px 5px;
+    background-color: white;
+}
+
+/***about me***/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+padding: 20px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+padding: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+p {
+    padding: 10px;
+}
